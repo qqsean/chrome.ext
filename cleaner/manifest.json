@@ -1,0 +1,17 @@
+{
+	"manifest_version" : 2,
+	"name" : "Robish DOM Cleaner",
+	"description" : "Remove DOM that affect performance",
+	"version" : "1.0",
+	"browser_action" : {
+		"default_icon" : "icon.png"
+	},
+	"background" : {
+		"persistent" : false,
+		"scripts" : ["background.js"]
+	},
+	"permissions" : [
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	]
+}
